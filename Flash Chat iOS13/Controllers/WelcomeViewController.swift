@@ -15,10 +15,8 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let defaultLabel: String = titleLabel.text!
         
-        titleLabel.text = defaultLabel
+        titleLabel.text = K.title
     }
     
 
